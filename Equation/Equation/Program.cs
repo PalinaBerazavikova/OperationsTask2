@@ -12,7 +12,8 @@ namespace Equation
         static void Main(string[] args)
         {
             GetParams getParams = new GetParams();
-            getParams.Start();
+            Console.WriteLine(getParams.GetResult());
+            //GetParams.DumpLog();
             Console.ReadKey();
         }
 
